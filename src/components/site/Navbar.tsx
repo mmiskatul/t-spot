@@ -60,7 +60,7 @@ export function Navbar() {
             aria-label={open ? "Close menu" : "Open menu"}
             className="grid h-11 w-11 place-items-center rounded-full border border-border bg-card text-foreground shadow-soft transition-colors hover:text-primary lg:hidden"
           >
-            {open ? <Menu className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
       </nav>
